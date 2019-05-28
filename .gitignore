@@ -10,3 +10,5 @@ Cargo.lock
 **/*.rs.bk
 .idea/
 target/
+src/mod.rs
+src/example.rs
