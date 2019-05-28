@@ -1,0 +1,11 @@
+[package]
+name = "rust-protobuf-test"
+version = "0.1.0"
+authors = ["Salvador Guzman <guzmansalv@gmail.com>"]
+edition = "2018"
+
+[[bin]]
+name = "proto-rust"
+path = "src/main.rs"
+
+[dependencies]
