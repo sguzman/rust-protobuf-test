@@ -4,5 +4,21 @@ package example;
 
 message Subs {
     repeated uint32 id = 1;
-    repeated uint32 sub = 2;
+    repeated uint32 subs = 2;
+}
+
+message Views {
+    repeated uint32 id = 1;
+    repeated uint32 views = 2;
+}
+
+message Videos {
+    repeated uint32 id = 1;
+    repeated uint32 videos = 2;
+}
+
+message Metrics {
+    Subs subs = 1;
+    Views views = 2;
+    Videos videos = 3;
 }
